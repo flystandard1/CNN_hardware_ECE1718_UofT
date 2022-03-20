@@ -1,2 +1,17 @@
-This is the github repo of the second project of course ECE1718S2 at University of Toronto.
+Project Name: Boosting Performance of CNN-mnist through Hardware acceleration
+
+This is the github repo of the second project of course ECE1718S2 (2022) at University of Toronto.
+
+Folder "design_files" includes all the design files in hardware
+
+Folder "verification_files" is the verification environment of out design files
+For each Folder inside "verification_files":
+    HDL design files are inside the Folder "dut"
+    Testbenches are inside the Folder "tb"
+    C models for each sub_module is inside the Folder "c_model"
+    "filelist.f" shows the files included for running testbench
+
+Folder "weights" includes the weights for mnist and the input image
+
+
 
