@@ -13,10 +13,14 @@ For each Folder inside "verification_files":
 
 Folder "weights" includes the weights for mnist and the input image
 
+Folder "c_model" includes the software implementations.
+    "weights.txt" is the trained weights used to skip training process to save time.
+    "host_sent_img.cpp" simulate the process of sending images to hardware.
+    "cnn_mnist-1_train1.cpp" feeds weights into the hardware.
+    "cnn_mnist-1_inference_fp" simulates and verifies the final result.
+
 The result from hardware is in the file "verification_files/forward_pass_top/res.txt"
 Each line of data is a prediction result from an image.
 First 16 bit is the result for label 0, last 16 bit is the result for label 9, etc.
-
-
 
 
