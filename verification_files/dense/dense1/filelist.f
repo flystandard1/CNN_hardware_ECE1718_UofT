@@ -1,0 +1,10 @@
+dut/dense1_serial.v
+dut/dense1_top.v
+dut/rom_dense_b.v
+dut/rom_dense_w.v
+../dense_common/dense_multiply_accumulator.v
+../../fix_ari_mul/fix_ari_mul.v
+../../sigmoid/dut/sigmoid.v
+tb/dense1_if.sv
+tb/dense1_tb.sv
+c_model/dense_1_model.c

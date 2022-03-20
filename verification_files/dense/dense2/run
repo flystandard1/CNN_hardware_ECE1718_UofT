@@ -1,0 +1,5 @@
+#!/bin/csh
+vcs -full64 -cpp g++-4.4 -cc gcc-4.4 -sverilog  -timescale=1ns/1ps -f filelist.f -fsdb
+./simv
+
+
