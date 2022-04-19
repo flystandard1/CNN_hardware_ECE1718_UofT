@@ -23,4 +23,6 @@ The result from hardware is in the file "verification_files/forward_pass_top/res
 Each line of data is a prediction result from an image.
 First 16 bit is the result for label 0, last 16 bit is the result for label 9, etc.
 
+The acceleration of this CNN code using SIMD and OpenCL can be found in the repo: https://github.com/JohnZ03/1718a1
+
 
