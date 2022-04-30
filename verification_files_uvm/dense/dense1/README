@@ -1,0 +1,5 @@
+How to run this UVM environment:
+1. Open makefile and change the variable UVM_HOME to the directory of your UVM file.
+2. Open terminal in this directory and type "make vcs"
+3. You can change the variable "tc" for different test cases and variable "vb" to change UVM verbosity, for example "make vcs tc=dense1_smoke vb=UVM_HIGH"
+4. After running "make vcs", type "make verdi" to get waveform simulation.
